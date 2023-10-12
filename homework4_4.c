@@ -2,6 +2,7 @@
 
 #include <stdio.h>
 
+
 int reverse(int num) {
     int reversed_num = 0;
     while(num > 0) {
@@ -11,7 +12,7 @@ int reverse(int num) {
     return reversed_num;
 }
 
-int main() {
+int main(void) {
     int num;
 
     printf("enter int number: ");
